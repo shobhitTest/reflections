@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need 
+to do it?
+
+When a repository is initialized a new .git directory is 
+created in the working directory. This .git directory contains
+the config and history details of the repository.
+
+Its an essential step because without it the git version control
+won't work.
