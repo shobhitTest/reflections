@@ -10,3 +10,33 @@ make you a more efficient programmer in the long term?
 	mistakes. One can also go back to previous version if he
 	does something wrong.
 
+Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google
+Docs, treat each file separately?
+
+It is because git is made for version control of programs and 
+program files are generally interrelated so in a single commit 
+all of the changes can be saved.
+
+How can you use the commands git log and git diff to view the 
+history of files?
+
+git log can be used to see the changelog, along with -- stat 
+argument it gives detailed output of changes. 
+git diff fileOld _fileNew gives the difference between two 
+versions, deleted lines are prefixed with -- and are shown in 
+green colour while lines added are prefixed with ++ and are 
+shown in red colour.
+
+How might using version control make you more confident to make 
+changes that could break something?
+
+Using version control makes it easy to revert to a previous
+working version allowing one to make changes easily and with 
+more confidence.
+
+Now that you have your workspace set up, what do you want to 
+try using Git for?
+
+I would use git to save different version of my code files
+nowon.
