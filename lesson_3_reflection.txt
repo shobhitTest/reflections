@@ -35,4 +35,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When making a pull request or when testing/adding
+    a new feature or fixing a bug.
+    Changing master branches is easy but master branch
+    needs to be stable.
